@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  base: "/vitepress-blog/",
   title: "星河",
   description: "星河的bolg",
   // header标签里面插入的内容
@@ -61,6 +62,5 @@ export default defineConfig({
     // // 社交链接
     socialLinks: [{ icon: "github", link: "https://github.com/ChinaCarlos" }],
     // 部署的时候需要注意该参数避免样式丢失
-    base: "/vitepress-blog/",
   },
 });
